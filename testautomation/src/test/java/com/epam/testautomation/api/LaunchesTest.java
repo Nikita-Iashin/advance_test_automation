@@ -24,6 +24,9 @@ public class LaunchesTest extends BaseHttpComponent{
 
     @Test
     void someTest() {
+        createDefaultStubsForAllEndpoints();
+
+        //steps
 
     }
 
