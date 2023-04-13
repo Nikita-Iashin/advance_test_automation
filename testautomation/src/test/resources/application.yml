@@ -1,0 +1,15 @@
+---
+spring:
+  profiles:
+    active:
+      - 'remote'
+      - 'local'
+  main:
+    allow-circular-references: true
+
+environment:
+  service:
+    remote:
+      url: https://rp.epam.com
+      timeout: 20
+  remoteBaseUrl: "https://rp.epam.com"
